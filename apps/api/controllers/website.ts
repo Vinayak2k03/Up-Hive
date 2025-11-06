@@ -84,8 +84,8 @@ export const createWebsite = async (req: Request, res: Response) => {
       },
     });
 
-    const subject = "Website added on better uptime for monitoring";
-    const text = `Hello Rudra A user has added a website for monitoring on better uptime,
+  const subject = "Website added on better uptime for monitoring";
+  const text = `Hello Vinayak A user has added a website for monitoring on better uptime,
 User ID: ${website.userId}
 User Name: ${session.user.name}
 User Email: ${session.user.email}
