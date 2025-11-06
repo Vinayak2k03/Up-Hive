@@ -9,7 +9,7 @@ export default function AboutPage() {
 
       <div className="relative z-10 text-white text-center max-w-4xl">
         <h1 className="text-5xl font-bold mb-8 mt-20 bg-gradient-to-r from-white via-green-400 to-white bg-clip-text text-transparent">
-          About BetterUptime
+          About Up-Hive
         </h1>
 
         <div className="bg-gradient-to-br from-green-500/20 via-transparent to-green-500/10 rounded-2xl p-8 mb-8 border border-gray-800/50 text-left space-y-10 text-gray-300 leading-relaxed">

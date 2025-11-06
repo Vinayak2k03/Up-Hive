@@ -18,7 +18,7 @@ export const Hero = () => {
             </div>
             <div className="relative mt-16 w-full max-w-[1100px] mx-auto items-center px-4">
                 <Image 
-                    src="https://pbs.twimg.com/media/GtSYMgbbMAQ54nj?format=png&name=medium" 
+                    src="https://pbs.twimg.com/media/G5Fe3WCbIAMOnXj?format=png&name=medium" 
                     alt="Hero Image" 
                     width={1100} 
                     height={600} 

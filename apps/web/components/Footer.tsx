@@ -11,7 +11,7 @@ export const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               
                     <div className="space-y-4">
-                        <h3 className="text-xl font-semibold text-white">BetterUptime</h3>
+                        <h3 className="text-xl font-semibold text-white">Up-Hive</h3>
                         <p className="text-gray-400">Monitor your websites and get notified when they go down or come back online.</p>
                     </div>
 
@@ -28,7 +28,7 @@ export const Footer = () => {
                         <h3 className="text-xl font-semibold text-white">Connect With Us</h3>
                         <div className="flex gap-4">
                             <motion.a
-                                href="https://github.com/Rudra-Sankha-Sinhamahapatra/Better-Uptime"
+                                href="https://github.com/Vinayak2k03/Up-Hive"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 rounded-lg bg-black/60 border border-gray-800/50 hover:border-green-500/50 text-gray-400 hover:text-green-400 transition-all duration-300"
@@ -59,7 +59,7 @@ export const Footer = () => {
                 </div>
 
                 <div className="mt-12 pt-8 border-t border-gray-800/50 text-center text-gray-400">
-                    <p>© {new Date().getFullYear()} BetterUptime. All rights reserved.</p>
+                    <p>© {new Date().getFullYear()} Up-Hive. All rights reserved.</p>
                 </div>
             </div>
         </div>

@@ -4,12 +4,12 @@ export const aboutSections = [
   {
     icon: Rocket,
     title: "Our Mission",
-    content: `At BetterUptime, we believe every business deserves reliable website monitoring that's both powerful and affordable. We're dedicated to providing real-time insights into your website's performance, helping you maintain exceptional uptime and deliver the best experience to your users.`
+    content: `At Up-Hive, we believe every business deserves reliable website monitoring that's both powerful and affordable. We're dedicated to providing real-time insights into your website's performance, helping you maintain exceptional uptime and deliver the best experience to your users.`
   },
   {
     icon: Lightbulb,
     title: "Why We Built This",
-    content: `Website downtime can cost businesses thousands of dollars and damage customer trust. Traditional monitoring solutions are often expensive, complex, or lack the features you actually need. We created BetterUptime to solve these problems:`,
+  content: `Website downtime can cost businesses thousands of dollars and damage customer trust. Traditional monitoring solutions are often expensive, complex, or lack the features you actually need. We created Up-Hive to solve these problems:`,
     list: [
       "Simple, intuitive interface that anyone can use",
       "Real-time monitoring with instant notifications",

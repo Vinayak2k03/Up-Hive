@@ -5,7 +5,7 @@ export const pageContent = {
   subtitle: "Choose the plan that fits your needs. All plans include real-time monitoring, instant alerts, and detailed analytics.",
   faqTitle: "Frequently Asked Questions",
   ctaTitle: "Ready to get started?",
-  ctaSubtitle: "Join thousands of businesses monitoring their websites with BetterUptime",
+  ctaSubtitle: "Join thousands of businesses monitoring their websites with Up-Hive",
   ctaButtonText: "Start Monitoring Now",
   ctaUrl: "/websites"
 };

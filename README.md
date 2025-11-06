@@ -1,6 +1,6 @@
-# BetterUptime - Website Monitoring Platform
+# Up-Hive – Website Monitoring Platform
 
-BetterUptime is a robust website monitoring platform that helps you track the uptime and performance of your websites in real-time. Built with modern technologies and a distributed architecture, it provides reliable monitoring with instant notifications when your websites experience downtime.
+Up-Hive is a robust website monitoring platform that helps you track the uptime and performance of your websites in real-time. Built with modern technologies and a distributed architecture, it provides reliable monitoring with instant notifications when your websites experience downtime.
 
 # Demo
 https://github.com/user-attachments/assets/b115c62a-99b5-4f0a-b3d3-3059a30492d8
@@ -25,7 +25,7 @@ https://github.com/user-attachments/assets/b115c62a-99b5-4f0a-b3d3-3059a30492d8
   - Redis-based email queue for reliable delivery
   - Automatic retries for failed notifications
 - Scalable architecture ready for growth
-- Secure authentication with Google OAuth Using Better Auth
+- Secure authentication with Google OAuth using Better Auth
 
 ## Tech Stack
 
@@ -57,8 +57,8 @@ https://github.com/user-attachments/assets/b115c62a-99b5-4f0a-b3d3-3059a30492d8
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Rudra-Sankha-Sinhamahapatra/Better-Uptime
-cd Better-Uptime
+git clone https://github.com/Vinayak2k03/Up-Hive
+cd Up-Hive
 ```
 
 2. Install dependencies:

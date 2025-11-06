@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "BetterUptime",
+  title: "Up-Hive",
   description: "Website monitoring made simple",
 };
 

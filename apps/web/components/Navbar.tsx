@@ -43,7 +43,7 @@ export const Navbar = () => {
                                     height={24}
                                     className="hover:opacity-80 transition-opacity"
                                 />
-                                <span className="text-white font-semibold text-lg">BetterUptime</span>
+                                <span className="text-white font-semibold text-lg">Up-Hive</span>
                             </Link>
                         </div>
 
@@ -154,7 +154,7 @@ export const Navbar = () => {
                                 height={24}
                                 className="hover:opacity-80 transition-opacity"
                             />
-                            <span className="text-white font-semibold text-lg">BetterUptime</span>
+                            <span className="text-white font-semibold text-lg">Up-Hive</span>
                         </Link>
                     </div>
 
