@@ -2,10 +2,6 @@
 
 Up-Hive is a robust website monitoring platform that helps you track the uptime and performance of your websites in real-time. Built with modern technologies and a distributed architecture, it provides reliable monitoring with instant notifications when your websites experience downtime.
 
-# Demo
-https://github.com/user-attachments/assets/b115c62a-99b5-4f0a-b3d3-3059a30492d8
-
-
 ## Features
 
 - Real-time website monitoring
