@@ -1,5 +1,7 @@
 # Up-Hive – Website Monitoring Platform
 
+![Preview](assets/preview.png)
+
 Up-Hive is a robust website monitoring platform that helps you track the uptime and performance of your websites in real-time. Built with modern technologies and a distributed architecture, it provides reliable monitoring with instant notifications when your websites experience downtime.
 
 ## Features
