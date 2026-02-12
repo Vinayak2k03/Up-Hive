@@ -6,13 +6,12 @@ WORKDIR /usr/src/app
 # Install OpenSSL for Prisma (needed at build time)
 RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists/*
 
-
 COPY bun.lock package.json turbo.json ./
 
 COPY packages/db ./packages/db
 COPY apps/worker ./apps/worker
 
-RUN bun install 
+RUN bun install
 
 # Generate Prisma client
 RUN bun run prisma:generate
@@ -27,4 +26,6 @@ RUN apt-get update -y && apt-get install -y openssl && rm -rf /var/lib/apt/lists
 
 COPY --from=builder /usr/src/app /usr/src/app
 
-CMD ["bun", "run", "start:worker"]
+ENV NODE_ENV=production
+
+CMD ["bun", "run", "apps/worker/index.ts"]
