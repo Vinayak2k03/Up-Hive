@@ -114,4 +114,13 @@ Bun.serve({
 });
 console.log(`Worker health check listening on port ${PORT}`);
 
+// Self-ping every 4 minutes to prevent Render free tier from sleeping
+if (process.env.NODE_ENV === "production" && process.env.RENDER_EXTERNAL_URL) {
+    setInterval(() => {
+        fetch(`${process.env.RENDER_EXTERNAL_URL}/`)
+            .then(() => console.log("Keep-alive ping sent"))
+            .catch((err) => console.error("Keep-alive ping failed:", err));
+    }, 4 * 60 * 1000);
+}
+
 startWorker();

@@ -61,6 +61,15 @@ const startServer = async () => {
     await startScheduler();
     app.listen(config.server.port, () => {
       console.log(`Server is running on port ${config.server.port}`);
+
+      // Self-ping every 4 minutes to prevent Render free tier from sleeping
+      if (process.env.NODE_ENV === "production" && process.env.RENDER_EXTERNAL_URL) {
+        setInterval(() => {
+          fetch(`${process.env.RENDER_EXTERNAL_URL}/`)
+            .then(() => console.log("Keep-alive ping sent"))
+            .catch((err) => console.error("Keep-alive ping failed:", err));
+        }, 4 * 60 * 1000);
+      }
     });
   } catch (error) {
     console.error("Failed to start server", error);
