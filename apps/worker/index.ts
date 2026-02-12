@@ -104,4 +104,14 @@ const startWorker = async () => {
     }
 };
 
+// Health check server to keep Render free tier alive
+const PORT = process.env.PORT || 3002;
+Bun.serve({
+    port: PORT,
+    fetch() {
+        return new Response("Worker is running", { status: 200 });
+    },
+});
+console.log(`Worker health check listening on port ${PORT}`);
+
 startWorker();
